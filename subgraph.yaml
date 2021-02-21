@@ -13,7 +13,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -57,7 +57,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -101,7 +101,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -143,7 +143,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -187,7 +187,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -231,7 +231,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -275,7 +275,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/ctoken.ts
       entities:
@@ -319,7 +319,7 @@ dataSources:
       startBlock: 23184515
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/mappings/comptroller.ts
       entities:
