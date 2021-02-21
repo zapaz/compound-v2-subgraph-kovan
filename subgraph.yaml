@@ -1,16 +1,16 @@
 specVersion: 0.0.2
 description: Compound is an open-source protocol for algorithmic, efficient Money Markets on the Ethereum blockchain.
-repository: https://github.com/graphprotocol/compound-V2-subgraph
+repository: https://github.com/zapaz/compound-V2-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: cBAT
-    network: mainnet
+    network: kovan
     source:
-      address: "0x6c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e"
+      address: "0x4a77faee9650b09849ff459ea1476eab01606c7a"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -50,11 +50,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: cDAI
-    network: mainnet
+    network: kovan
     source:
-      address: "0xf5dce57282a584d2746faf1593d3121fcac444dc"
+      address: "0xf0d0eb522cfa50b716b3b1604c4f0fa6f04376ad"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -94,11 +94,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: cETH
-    network: mainnet
+    network: kovan
     source:
-      address: "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5"
+      address: "0x41b5844f4680a8c38fbb695b7f9cfd1f64474a72"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -136,11 +136,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: cREP
-    network: mainnet
+    network: kovan
     source:
-      address: "0x158079ee67fce2f58472a96584a73c7ab9ac95c1"
+      address: "0xa4ec170599a1cf87240a35b9b1b8ff823f448b57"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -180,11 +180,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: cUSDC
-    network: mainnet
+    network: kovan
     source:
-      address: "0x39aa39c021dfbae8fac545936693ac917d5e7563"
+      address: "0x3f0a0ea2f86bae6362cf9799b523ba06647da018"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -224,11 +224,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: cWBTC
-    network: mainnet
+    network: kovan
     source:
-      address: "0xc11b1268c1a384e55c48c2391d8d480264a3a7f4"
+      address: "0xa1faa15655b0e7b6b6470ed3d096390e6ad93abb"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -268,11 +268,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: cZRX
-    network: mainnet
+    network: kovan
     source:
-      address: "0xb3319f5d18bc0d84dd1b4825dcde5d5f7266d407"
+      address: "0xaf45ae737514c8427d373d50cd979a242ec59e5a"
       abi: CToken
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -312,11 +312,11 @@ dataSources:
           handler: handleNewMarketInterestRateModel
   - kind: ethereum/contract
     name: Comptroller
-    network: mainnet
+    network: kovan
     source:
-      address: "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B"
+      address: "0x5eae89dc1c671724a672ff0630122ee834098657"
       abi: Comptroller
-      startBlock: 7700000
+      startBlock: 23184515
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
