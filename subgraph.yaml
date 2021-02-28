@@ -8,7 +8,7 @@ dataSources:
     name: cBAT
     network: kovan
     source:
-      address: "0x4a77faee9650b09849ff459ea1476eab01606c7a"
+      address: '0x4a77faee9650b09849ff459ea1476eab01606c7a'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -30,10 +30,10 @@ dataSources:
         - name: ERC20
           file: ./abis/erc20.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -52,7 +52,7 @@ dataSources:
     name: cDAI
     network: kovan
     source:
-      address: "0xf0d0eb522cfa50b716b3b1604c4f0fa6f04376ad"
+      address: '0xf0d0eb522cfa50b716b3b1604c4f0fa6f04376ad'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -74,10 +74,10 @@ dataSources:
         - name: ERC20
           file: ./abis/erc20.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -96,7 +96,7 @@ dataSources:
     name: cETH
     network: kovan
     source:
-      address: "0x41b5844f4680a8c38fbb695b7f9cfd1f64474a72"
+      address: '0x41b5844f4680a8c38fbb695b7f9cfd1f64474a72'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -116,10 +116,10 @@ dataSources:
         - name: PriceOracle2
           file: ./abis/priceOracle2.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -138,7 +138,7 @@ dataSources:
     name: cREP
     network: kovan
     source:
-      address: "0xa4ec170599a1cf87240a35b9b1b8ff823f448b57"
+      address: '0xa4ec170599a1cf87240a35b9b1b8ff823f448b57'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -160,10 +160,10 @@ dataSources:
         - name: ERC20
           file: ./abis/erc20.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -182,7 +182,7 @@ dataSources:
     name: cUSDC
     network: kovan
     source:
-      address: "0x3f0a0ea2f86bae6362cf9799b523ba06647da018"
+      address: '0x4a92e71227d294f041bd82dd8f78591b75140d63'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -204,10 +204,10 @@ dataSources:
         - name: ERC20
           file: ./abis/erc20.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -226,7 +226,7 @@ dataSources:
     name: cWBTC
     network: kovan
     source:
-      address: "0xa1faa15655b0e7b6b6470ed3d096390e6ad93abb"
+      address: '0xa1faa15655b0e7b6b6470ed3d096390e6ad93abb'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -248,10 +248,10 @@ dataSources:
         - name: ERC20
           file: ./abis/erc20.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -270,7 +270,7 @@ dataSources:
     name: cZRX
     network: kovan
     source:
-      address: "0xaf45ae737514c8427d373d50cd979a242ec59e5a"
+      address: '0xaf45ae737514c8427d373d50cd979a242ec59e5a'
       abi: CToken
       startBlock: 23184515
     mapping:
@@ -292,10 +292,10 @@ dataSources:
         - name: ERC20
           file: ./abis/erc20.json
       eventHandlers:
-#        - event: Mint(address,uint256,uint256)
-#          handler: handleMint
-#        - event: Redeem(address,uint256,uint256)
-#          handler: handleRedeem
+        #        - event: Mint(address,uint256,uint256)
+        #          handler: handleMint
+        #        - event: Redeem(address,uint256,uint256)
+        #          handler: handleRedeem
         - event: Borrow(address,uint256,uint256,uint256)
           handler: handleBorrow
         - event: RepayBorrow(address,address,uint256,uint256,uint256)
@@ -314,7 +314,7 @@ dataSources:
     name: Comptroller
     network: kovan
     source:
-      address: "0x5eae89dc1c671724a672ff0630122ee834098657"
+      address: '0x5eae89dc1c671724a672ff0630122ee834098657'
       abi: Comptroller
       startBlock: 23184515
     mapping:
